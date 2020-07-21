@@ -4,8 +4,7 @@ PODS:
     - Alamofire (~> 4.8)
   - CodableAlamofire (1.1.1):
     - Alamofire (~> 4.0)
-  - RSReactiveRequest (1.0.0):
-    - Alamofire
+  - RSReactiveRequest (2.0.1):
     - AlamofireImage
     - CodableAlamofire
     - RxSwift
@@ -17,7 +16,7 @@ DEPENDENCIES:
   - RSReactiveRequest (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Alamofire
     - AlamofireImage
     - CodableAlamofire
@@ -32,10 +31,10 @@ SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   AlamofireImage: 1aea346f4dda2f6c67622fa5a89fcbb80d79cc16
   CodableAlamofire: b587c1198562824abb1f468aed34feb00d6cecd8
-  RSReactiveRequest: 448f86d9b998494848e798a708f17ff9276e925e
+  RSReactiveRequest: 4a4e2f3546c35c8b06616088afde8b39f7f17266
   RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
   RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
 
-PODFILE CHECKSUM: e073d4bdcbf8d10af529ac7b4dc20db781577b6c
+PODFILE CHECKSUM: 4c679fc039e67999b401964fde76730a2c3b1714
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.3
