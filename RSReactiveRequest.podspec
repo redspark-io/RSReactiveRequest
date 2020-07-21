@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
 
     s.source_files = 'RSReactiveRequest/Classes/**/*'
 
-    s.dependency 'Alamofire'
-    s.dependency 'AlamofireImage'
-    s.dependency 'CodableAlamofire'
-    s.dependency 'RxSwift'
+    s.dependency 'Alamofire', '~> 5.2'
+    s.dependency 'AlamofireImage', '~> 4.1'
+    s.dependency 'CodableAlamofire', '~> 1.2'
+    s.dependency 'RxSwift', '~> 5'
 
 end
